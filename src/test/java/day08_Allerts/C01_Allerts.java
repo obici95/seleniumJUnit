@@ -45,5 +45,6 @@ public class C01_Allerts {
        // - tikladikdan sonra cikan uyari mesajina(allert'e) tamam diyelim.
         Thread.sleep(2000);
         driver.switchTo().alert().accept();
+
     }
 }
