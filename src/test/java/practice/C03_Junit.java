@@ -5,7 +5,7 @@ import org.junit.*;
 public class C03_Junit {
     //JUnitte main method kullanmamiza gerek kalmiyor notasyonlari kullaniyoruz
     // JUnit notasyonlarinda alfabeye gore calistirir.
-    //
+
 
  // @BeforeClass
  // public static void beforeClass(){
@@ -13,11 +13,11 @@ public class C03_Junit {
  //     //Her class'ta ilk basta bu calisir, 1 defa calisir
  // }
 
- // @AfterClass
- // public static void beforeClass(){
+    @AfterClass
+  public static void beforeClass(){
         System.out.println("AfterClass");
         //En son
-   // }
+    }
 
     @Before
     public void before(){

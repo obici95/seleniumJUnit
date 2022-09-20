@@ -78,6 +78,7 @@ public class C03_windowHandle {
 
   //  Tests package’inda yeni bir class olusturun: WindowHandle2
   //  https://the-internet.herokuapp.com/windows adresine gidin.
+
   //  Sayfadaki textin “Opening a new window” olduğunu doğrulayın.
   //  Sayfa başlığının(title) “The Internet” olduğunu doğrulayın.
   //  Click Here butonuna basın.
