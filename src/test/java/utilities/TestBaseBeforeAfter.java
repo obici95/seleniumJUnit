@@ -16,11 +16,11 @@ public abstract class TestBaseBeforeAfter { // bu class'tan obje olusturulmamasi
         WebDriverManager.chromedriver().setup(); // boni garcia'ya selam
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @After
     public void tearDown(){
-     //   driver.quit();
+      //  driver.quit();
     }
 }

@@ -29,7 +29,7 @@ public class C04_FileExists {
          */
 
        // Dosya yolu icin Shit tusuna basili tutup sag click yapiyoruz
-        //Bastan ve sonra slash(/) isaretlerini siliyoruz ve asagidaki hale getiriyoruz.
+        //Bastan ve sondan slash(/) isaretlerini siliyoruz ve asagidaki hale getiriyoruz.
 
         String dosyaYolu = "C:\\Users\\90505\\Desktop\\Text.txt";
         System.out.println(Files.exists(Paths.get(dosyaYolu)));
@@ -38,7 +38,7 @@ public class C04_FileExists {
         /*
           Bir websitesinden indirdigimiz ya da windows icinde olusturdugumuz dosyanin indigini ya da orda oldugunu
           test edebilmem icin o dosyanin uzerine shift tusuna basili olarak sag click yapip dosyanin yolunu kopyalayip
-          bir string degiskene atariz ve dosyayi dogrulamak icin yani
+          bir string degiskene atariz ve dosyayi dogrulamak icin
           Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
           bu method'u kullaniriz.dogru dosyaysa zaten Test Passed yazar.
 
