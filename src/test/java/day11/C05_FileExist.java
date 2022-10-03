@@ -25,5 +25,7 @@ public class C05_FileExist extends TestBaseBeforeAfter {
 
         // Indirildigini konsolda gosterin
         System.out.println(Files.exists(Paths.get(dosyaYolu))); // True
+
+
     }
 }

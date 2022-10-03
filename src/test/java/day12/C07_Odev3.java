@@ -44,8 +44,6 @@ public class C07_Odev3 extends TestBaseBeforeAfter {
         driver.switchTo().window(handleDegerleri.get(1));
 
 
-
-
         // 5."username" ve  "password" kutularina deger yazdirin
         Faker faker=new Faker();
 
